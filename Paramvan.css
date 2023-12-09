@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+nav>div{
+    width: 1140px;
+    height: 174px;
+    margin: auto;
+    
+}
+nav ul{
+    width: 831px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+}
+.logo{
+    margin-top: 80px;
+    width: 35px;
+    height: 31px;
+    overflow: hidden;
+}
+.logo:hover img{
+    transform: translateY(-50%);
+    
+} 
+
+#upcoming-movies{
+    width: 945px;
+    height: auto;
+    margin: 30px auto;
+}
+.movie-header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.movie-header hr{
+    background-color: gold;
+    width: 150px;
+    height: 1px;
+    border: gold;
+}
+.header span{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+#movie-posters{
+    width: 945px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.moviename{
+    width: 250px;
+    height: 65px;
+    background: url(https://www.paramvah.com/images/grungBg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 32.5px;
+    transition: 0.35s;
+    
+}
+#movie-posters>div:hover .moviename{
+    bottom: 45px;
+}
+#latest-video{
+    width: 945px;
+    height: auto;
+    margin: 30px auto;
+
+}
+#movie-trailers{
+    width: 945px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+#movie-trailers h3{
+    margin-top: 15px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+#movie-trailers p{
+    font-size: 12px;
+    color: #AFAFAF;
+    text-align: center;
+
+}
